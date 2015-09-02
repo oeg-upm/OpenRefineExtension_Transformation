@@ -1,0 +1,65 @@
+<div>
+  <table>
+    <tr><td >Endpoint Name:</td>
+    <td ><input type="text" /></td></tr>
+    
+    <tr><td class="box" bind="">Saved endpoints:</td>
+        <td class="box" ><select name="localhost" id="" bind="">
+            <option value="1" bind="">http://localhost:8890/sparql-auth</option>
+            <option value="2" bind="">http://demo.lod2-eu/virtuoso/sparql-auth</option>
+        </select></td></tr>
+        
+    <tr>
+        <td bind="t_load_ckan_sqlalchemy_url"></td>
+        <td><input type="text" name="sqlalchemy-url" bind="sqlalchemyUrl" value="postgres://tester:pass@localhost/ckantest3"/></td>
+    </tr>
+    <tr>
+      <td bind="t_load_ckan_ds_write_url"></td>
+  	  <td><input type="text" name="write-url" bind="writeUrl" value="postgresql://ckanuser:pass@localhost/datastore"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_ds_read_url"></td>
+  	  <td><input type="text" name="read-url" bind="readUrl" value="postgresql://readonlyuser:pass@localhost/datastore"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_solr_url"></td>
+  	  <td><input type="text" name="slor-url" bind="solrUrl" value="http://solr.okfn.org:8983/solr/ckan-schema-2.0"/></td>
+  	</tr>
+  	<!-- -->
+  	
+    <tr>
+      <td bind="t_load_ckan_site_id"></td>
+  	  <td><input type="text" name="site-id" bind="siteID" value="my_ckan_instance"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_site_url"></td>
+  	  <td><input type="text" name="site-url" bind="siteUrl" value="http://scotdata.ckan.net"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_storage_path"></td>
+  	  <td><input type="text" name="storage-path" bind="storagePath" value="/var/lib/ckan"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_data_pusher"></td>
+  	  <td><input type="text" name="data-pusher" bind="dataPusher" value="http://127.0.0.1:8800/"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_smtp_server"></td>
+  	  <td><input type="text" name="smtp-server" bind="smtpServer" value="smtp.gmail.com:587"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_smtp_starttls"></td>
+      <td><input type="checkbox" id="smtp-starttls" bind="smtpStarttls"></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_smtp_user"></td>
+  	  <td><input type="text" name="smtp-user" bind="smtpUser" value="your_username@gmail.com"/></td>
+  	</tr>
+    <tr>
+      <td bind="t_load_ckan_smtp_password"></td>
+  	  <td><input type="password" name="smtp-pwd" bind="smtpPwd" value="ckanpass"/></td>
+  	</tr>
+  	
+  </table>
+</div>
+

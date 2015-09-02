@@ -1,0 +1,50 @@
+{
+"t-menu": {
+		"apply-json-hd" : "Apply JSON history of operations",
+		"apply-json-menu" : "Apply JSON", 
+		"load-ckan" : "Load into CKAN",
+		"extract-ckan" : "Extract from CKAN"
+	},
+
+"exit-buttons": {
+		 "ok" : "OK",
+		 "cancel" : "Cancel",
+		 "close": "Close",
+		 "apply": "Apply",
+		 "next" : "Next"
+		},
+
+"load-json": {
+		"name": "Name",
+		"detail" : "Set last used as default...",
+		"file-details": "File details",
+		"file-extra-details": "Locate operations from an existing Refine project file (.tar or .tar.gz)",
+		"project-file" : "Extract from project",
+		"file-upload": "Upload file",
+		
+		"full-uri": "Provide full URI for the property",
+		"no-syntax-error": "No syntax error.",
+		"internal-error": "Internal error.", 
+		"ex-op": "Extract Operation History from Project", 
+"json-invalid": "The JSON you provided is invalid",
+"file-invalid": "Select a file",
+"proj-warning":"Name the project"
+		},
+"load-ckan": {
+  
+"ckan-load-hd" : "Configure CKAN LOAD endpoint",
+
+"sqlalchemy_url" : "SqlAlchemy url",
+"ds_write_url" : "Datastore write url",
+"ds_read_url" : "Datastore read url",
+"solr_url" : "Solr url", 
+"site_id" : "Site ID",
+"site_url" : "Site url",
+"storage_path" : "Storage path",
+"data_pusher" : "Data pusher",
+"smtp_server" : "SMTP server",
+"smtp_starttls" : "SMTP starttls",
+"smtp_user" : "SMTP user",
+"smtp_password" : "SMTP password"
+		}
+}
